@@ -1,13 +1,24 @@
+:root{
+    --navcolor:#2E2F42;
+    --contactcolor:#434455;
+    --whitecolor:#FFFFFF;
+    --butcolor:#4D5AE5;
+    --clickcolor:#404BBF;
+    --grecolor:#31D0AA;
+    --sercolor:#F4F4FD;
+    --serrcolor:#E7E9FC;
+}
 /* body */
+
 .boddy{
-        font-family: “Roboto”, sans-serif;
+        font-family: "Roboto", sans-serif;
     }
 
 
 
 /* header */
 .head{
-    background: #FFFFFF;
+    background: var(--whitecolor);
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
     
@@ -21,75 +32,51 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-color: #4D5AE5;
+color:  var(--butcolor);
 text-decoration: none;
+text-transform:uppercase;
 
 }
 /* logo2 */
 .stud{
     
-font-family: 'Raleway';
+font-family: "Raleway";
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-color: #2E2F42;
+color:var(--navcolor);
 text-decoration: none;
-
+text-transform:uppercase;
 
 }
 /* Button stud */
+.buttron{
+    list-style-type: none;
+}
+
 .studios{
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
-color: #2E2F42;
+color: var(--navcolor);
 text-decoration: none;
 }
 .studios:hover{
-    color: #434455;
-    
+    color:var(--contactcolor);
 }
-.studios:active{
-    color: #4D5AE5;
-}
-/* Button portfolio */
-.port{
+.studios:focus{
+    color:var(--contactcolor);}
    
-    
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2E2F42;
-    text-decoration: none;
-  
+.studios:active{
+    color:  var(--clickcolor)
 }
-.port:hover{
-    color: #434455;
-}
-.port:active{
-    color: #4D5AE5;
-}
-/* button contact */
-.cont{
     
 
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 1.5;
-color: #2E2F42;
-text-decoration: none;
-}
-.cont:hover{
-    color: #434455;
-}
-.cont:active{
-    color: #4D5AE5;
-}
-/* href mail */
+
+/* Button portfolio */
+
 
 .mail{
    
@@ -98,31 +85,28 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
-color: #434455;
+color: var(--contactcolor);
 text-decoration: none;
 
 
 }
+.mail:hover{
+    color:var(--contactcolor);
+}
+.mail:focus{
+    color:var(--contactcolor);
+}
+
 .mail:active{
-    color: #4D5AE5;}
+    color: var(--clickcolor);
+}
+    
 /* href number */
 
-.telefon{
- 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    text-decoration: none;
-  
-}
-.telefon:active{
-    color: #4D5AE5;
-}
+
 /* section1 */
 .secone{
-    background: #2E2F42;
+    background:var(--navcolor);
 }
 /* paragraf */
 .effects{
@@ -132,40 +116,43 @@ text-decoration: none;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.18;
-    color: #FFFFFF;
+    line-height: 1.07;
+    color:  var(--whitecolor);
 }
 
-.efec{
-    color: #FFFFFF;
 
-}
 
 .butik{
-    
-    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
-    background: #4D5AE5;
+    background: var(--butcolor);
+    color:  var(--whitecolor);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
     z-index: 3;
 }
 .bitik:hover{
-    background:  #4D5AE5;
+    background:var(--clickcolor);
 }
+.butik:focus{
+    background:var(--clickcolor);
+}
+
 .butik:active{
-background: 
-#404BBF;
-}
+    background:var(--clickcolor);
+}  
+
 
 
 /* section2 */
 .advantages{
-    background:  #FFFFFF;
+    background:   var(--whitecolor);
 }
 .adva{
-    font-size: 0px; 
+
+    font-size: 0
 }
 /* Strategy */
 .strategy{
@@ -173,83 +160,40 @@ background:
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--navcolor);
 }
 
 .business{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--contactcolor);
 }
-/* Punctuality */
-.punctuality{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.bring{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-/* Diligence */
-.diligence{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.research{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-/* Technologies */
-.technologies{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.design{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
+
 /*3section*/
 .doing{
-    background: #FFFFFF;
+    background:  var(--whitecolor);
 }
 .what{
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
-    color: #2E2F42;
+    color: var(--navcolor);
 }
 .comp{
     width: 360px;
 }
-.phone{
-    width: 360px;
-}
-.note{
-    width: 360px;
-}
+
 /*4section*/
 .cot{
-    background: #F4F4FD;
+    background: var(--sercolor);
 }
 .team{
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;  
-    color: #2E2F42;
+    color:var(--navcolor);
 }
 
 .blue{
@@ -261,64 +205,17 @@ background:
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--navcolor);
 }
 .product{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color:var(--contactcolor);
 }
-.white{
-    width: 264px;
-    height: 260px;
-}
-.Tom{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.frontend{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-.rose{
-    width: 264px;
-    height: 260px;
-}
-.camila{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.marketing{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-.gray{
-    width: 264px;
-    height: 260px;
-}
-.daniel{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.ui{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
+
 /*--5section*/
 .foot{
-    background: #2E2F42;
+    background: var(--navcolor);
 }
 
 .bew{
@@ -327,8 +224,9 @@ background:
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    color: #4D5AE5;
+    color:  var(--butcolor);
     text-decoration: none;
+    text-transform:uppercase;
 }
 .dio{
     font-family: 'Raleway';
@@ -336,15 +234,16 @@ background:
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    color: #F4F4FD;
+    color:  var(--sercolor);
     text-decoration: none;
+    text-transform:uppercase;
 }
 
 .increase{
    
 font-size: 16px;
 line-height: 1.5;
-color: #E7E9FC;
+color: var(--serrcolor);
 }
 
 
@@ -354,281 +253,26 @@ color: #E7E9FC;
     font-size:0px;
 }
 .all{
-    background: #F4F4FD;
+    font-family: 'Roboto';
+    background:  var(--sercolor);
+    color: var(--butcolor);
+    cursor: pointer;
 }
 .all:hover{
-    background: #4D5AE5;
-}
+    background:  var(--butcolor);
+    color:  var(--whitecolor)};
+.all:focus{
+    background: var(--butcolor);
+    color:  var(--whitecolor)};
+
 .all:active{
 
-    background: #404BBF;
-}
-.allone{
-   
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5;
+    background:  var(--clickcolor);
+    color:  var(--whitecolor);
 }
 
-.allone:hover{
-    color: #FFFFFF
-}
-.allone:active{
-    color: #FFFFFF
-}
-
-.lla{
-    background: #F4F4FD;
-}
-.lla:hover{
-    background: #4D5AE5;
-}
-.lla:active{
-
-    background: #404BBF;
-}
-
-.llaone{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5; 
-}
-.llaone:hover{
-    color: #FFFFFF
-}
-.llaone:active{
-    color: #FFFFFF
-}
-.app{
-    background: #F4F4FD;
-}
-.app:hover{
-    background: #4D5AE5;
-}
-.app:active{
-
-    background: #404BBF;
-}
-.appone{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5;
-}
-.appone:hover{
-    color: #FFFFFF
-}
-.appone:active{
-    color: #FFFFFF
-}
-.ppa{
-    background: #F4F4FD;
-}
-.ppa:hover{
-    background: #4D5AE5;
-}
-.ppa:active{
-
-    background: #404BBF;
-}
-.ppaone{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5;
-}
-.ppaone:hover{
-    color: #FFFFFF
-}
-.ppaone:active{
-    color: #FFFFFF
-}
-
-.allapp{
-    background: #F4F4FD;
-}
-.allapp:hover{
-    background: #4D5AE5;
-}
-.allapp:active{
-
-    background: #404BBF;
-}
-.allappone{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5;
-}
-.allappone:hover{
-    color: #FFFFFF
-}
-.allappone:active{
-    color: #FFFFFF
-}
-
-.poncik{
-    text-decoration: none
-}
-.kil{
-    width: 360px;
-}
-.bakin{
-    font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: #2E2F42;
 
 
-}
-.pat{
-    font-size: 16px;
-line-height: 1.5;
-color: #434455;
-
-}
-.tap{
-    
-}
-
-.tarketfwo{
-    text-decoration: none
-}
-.tarket{
-    width: 360px;
-}
-.tarketone{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.tarkettwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-    
-.tarketsri{
-    font-size: 16px;
-line-height: 1.5;
-color: #F4F4FD;
-}
-
-.meditafwo{
-    text-decoration: none
-}
-.medita{
-    width: 360px;
-}
-.meditaone{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.meditatwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.meditasri{}
-
-.taxifwo{
-    text-decoration: none
-}
-.taxi{
-    width: 360px;
-}
-.taxione{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.taxitwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.taxisre{}
-
-.illustr{
-    text-decoration: none
-}
-.illustrfwo{
-    width: 360px;
-}
-.illustrone{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.illustrtwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.illustrsri{}
-
-.onlinefwo{
-    text-decoration: none
-}
-.online{
-    width: 360px;
-}
-.onlineone{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.onlinetwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.onlinesri{}
-
-.concept{
-    text-decoration: none
-}
-.conceptfwo{
-    width: 360px;
-}
-.conceptone{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.concepttwo{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.conceptsre{}
 
 .flower{
     text-decoration: none
@@ -641,34 +285,13 @@ color: #F4F4FD;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--navcolor);
 }
 .flowersri{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--contactcolor);
     
 }
-.flowerfwo{}
 
-.cofe{
-    text-decoration: none
-}
-.cofeone{
-    width: 360px;
-}
 
-.cofetwo{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color: #2E2F42;
-}
-.cofesri{
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    
-}
-.cofefwo{}
